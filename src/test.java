@@ -12,19 +12,18 @@ public class test {
     static String path = defaultPath;
  
     public static void main(String[] args) {
-        // 이클립스에서 그냥 실행 해볼 수 있는 간단한 DOS 커맨드
-        // 사용할 수 있는 명령어
- 
-        // CD 현재 디렉터리 이름을 보여주거나 바꿉니다.
-        // DIR 디렉터리에 있는 파일과 하위 디렉터리 목록을 보여줍니다.
-        // MD 디렉터리를 만듭니다.
-        // MKDIR 디렉터리를 만듭니다.
-        // RD 디렉터리를 지웁니다.
-        // RMDIR 디렉터리를 지웁니다.
-        // REN 파일 이름을 바꿉니다.
-        // RENAME파일 이름을 바꿉니다.
-        // TYPE 텍스트 파일의 내용을 보여줍니다.
-        // EXIT 프로그램을 종료합니다.
+        System.out.println("         이클립스에서 그냥 실행 해볼 수 있는 간단한 DOS 커맨드\r\n"
+                + "         사용할 수 있는 명령어\r\n"
+                + " \r\n"
+                + "    \r\n"
+                + "         MD 디렉터리를 만듭니다.\r\n"
+                + "         MKDIR 디렉터리를 만듭니다.\r\n"
+                + "         RD 디렉터리를 지웁니다.\r\n"
+                + "         RMDIR 디렉터리를 지웁니다.\r\n"
+                + "         REN 파일 이름을 바꿉니다.\r\n"
+                + "         RENAME파일 이름을 바꿉니다.");
+        System.out.println("-----------------------------------------------------------");
+     
  
         Scanner sc = new Scanner(System.in);
  
@@ -89,8 +88,6 @@ public class test {
  
     }
 
-  
-
     private static void makeDirectory(String[] input) {
         // TODO Auto-generated method stub
         System.out.println("This is makeDirectory");
@@ -113,42 +110,30 @@ public class test {
         }
     }
 
-
-
     private static void displayHelp(String[] input) {
         // TODO Auto-generated method stub
         
     }
-
-
 
     private static void readTextFile(String[] input) {
         // TODO Auto-generated method stub
         
     }
 
-
-
     private static void renameDirectory(String[] input) {
         // TODO Auto-generated method stub
         
     }
-
-
 
     private static void changeDirectory(String[] input) {
         // TODO Auto-generated method stub
         
     }
 
-
-
     private static void searchDirectory(String[] input) {
         // TODO Auto-generated method stub
         
     }
-
-
 
     private static boolean deleteDirectory(File file) {
         // TODO Auto-generated method stub
